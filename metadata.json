@@ -1,6 +1,6 @@
 {
-"name": "Remove PowerOff Action Button",
-"description": "Remove PowerOff Action Button from gnome-shell's system status/aggregate menu",
-"uuid": "Remove_PowerOff_Action_Button@PRATAP",
-"shell-version": ["3.28.4", "3.34.1"]
+"name": "Remove Poweroff Action Button",
+"description": "Remove Poweroff Action Button from gnome-shell's status/aggregate menu",
+"uuid": "RemovePoweroffActionButton@pratap.fastmail.fm",
+"shell-version": ["3.28", "3.32", "3.34"]
 }
