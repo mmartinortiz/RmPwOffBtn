@@ -5,6 +5,11 @@ Hi, this is my first gnome-shell-extension.
 Written for https://askubuntu.com/q/1179727/739431
 Tested in Ubuntu 18.04, Ubuntu 19.04 and Ubuntu 19.10
 
+Instruction
+------------
+/* when you turnoff this extension, "gnome-shell" restart is required to bring the PowerOff Action Button back. */
+/* So, when you turnoff this extension, Press 'Alt+F2' dialog box will open, type 'r' or 'restart' and press 'Enter' */
+
 Installation
 -------------
 1. Download the files extension.js and metadata.json
