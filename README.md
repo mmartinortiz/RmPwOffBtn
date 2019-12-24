@@ -1,23 +1,15 @@
-Dec 14th 2019
+Gnome extension that hides the "Power Off button" from the status area. The system can still be power off from the command line, or once the extension is disabled. The aim is to avoid users connected remotely to see the "Power off" action. Even if they cannot power off the system, better to avoid visual temptation.
 
-Hi, this is my first gnome-shell-extension.
+The aim of this extension is based on [a question raised at Ask Ubuntu](https://askubuntu.com/q/1179727/739431)
 
-Written for https://askubuntu.com/q/1179727/739431
-Tested in Ubuntu 18.04, Ubuntu 19.04 and Ubuntu 19.10
+Tested in Ubuntu 18.04, 19.04 and 19.10
 
-Instruction
-------------
-1. when you turnoff this extension, "gnome-shell" restart is required to bring the PowerOff Action Button back.
-2. So, when you turnoff this extension, Press 'Alt+F2' dialog box will open, type 'r' or 'restart' and press 'Enter'
+# How to install
 
-Installation
--------------
-1. Download the files extension.js and metadata.json
-2. keep them in "$HOME/.local/share/gnome-shell/extensions/RemovePoweroffActionButton@pratap.fastmail.fm/" (Create the directory's as necessary) for local user.
-3. keep them in "/usr/share/gnome-shell/extensions/RemovePoweroffActionButton@pratap.fastmail.fm/" (Create the directory's as necessary) for systemwide.
-4. Refresh the gnome-shell with Alt+F2 r Enter
-5. Enable the extension "Remove poweroff action button" with the easier way via gnome-tweaks (sudo apt install gnome-tweaks) or via command line.
+For installing locally, just run the script `install.sh local-install` from the command line. If you want to make it system wide available, use `install.sh system` instead (as root).
 
-Removal
---------
-1. simply delete the directory "RemovePoweroffActionButton@pratap.fastmail.fm" from the installed location. either "$HOME/.local/share/gnome-shell/extensions/RemovePoweroffActionButton@pratap.fastmail.fm" or "/usr/share/gnome-shell/extensions/RemovePoweroffActionButton@pratap.fastmail.fm"
+Once installed, you may need to restart your Gnome Shell. Use `ALT + F2` and indicate `r`.
+
+# Removal
+
+Simply delete the directory `RemovePoweroffActionButton@pratap.fastmail.fm` from the installed location, either `$HOME/.local/share/gnome-shell/extensions/RemovePoweroffActionButton@pratap.fastmail.fm` or `/usr/share/gnome-shell/extensions/RemovePoweroffActionButton@pratap.fastmail.fm`
