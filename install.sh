@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NAME=RemovePoweroffActionButton\@pratap.fastmail.fm
+NAME=RemovePoweroffActionButton\@mmartinortiz
 
 case "$1" in
   "local-install" )
